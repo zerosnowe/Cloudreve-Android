@@ -8,6 +8,10 @@
 
 <h4 align="center">一款完全由Kotlin驱动的强大Cloudreve安卓客户端.</h4>
 
-                                                       🐙开源|💴免费|✨优雅
+<p align="center">
+  </a>🐙开源|</a> 
+  </a>💴免费|</a>   
+  </a>✨优雅</a>
+</p>
 
 
