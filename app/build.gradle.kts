@@ -12,8 +12,8 @@ android {
         applicationId = "com.zerostudio.cloudreve"
         minSdk = 32
         targetSdk = 37
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1beta"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -70,6 +70,7 @@ dependencies {
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
     implementation(libs.koin.androidx.workmanager)
+    implementation(libs.miuix.preference)
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
     implementation(platform(libs.androidx.compose.bom))

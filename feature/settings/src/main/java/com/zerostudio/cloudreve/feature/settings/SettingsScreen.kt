@@ -25,6 +25,7 @@ import org.koin.androidx.compose.koinViewModel
 import top.yukonga.miuix.kmp.basic.BasicComponent
 import top.yukonga.miuix.kmp.basic.BasicComponentDefaults
 import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.preference.ArrowPreference
 import top.yukonga.miuix.kmp.preference.OverlayDropdownPreference
 import top.yukonga.miuix.kmp.theme.MiuixTheme
 import top.yukonga.miuix.kmp.utils.overScrollVertical
@@ -32,6 +33,7 @@ import top.yukonga.miuix.kmp.utils.overScrollVertical
 @Composable
 fun SettingsRoute(
     padding: PaddingValues,
+    onOpenAbout: () -> Unit,
     viewModel: SettingsViewModel = koinViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -39,6 +41,7 @@ fun SettingsRoute(
         padding = padding,
         language = state.language,
         onLanguageChange = viewModel::setLanguage,
+        onOpenAbout = onOpenAbout,
         onSignOut = viewModel::signOut,
     )
 }
@@ -48,6 +51,7 @@ fun SettingsScreen(
     padding: PaddingValues,
     language: AppLanguage,
     onLanguageChange: (AppLanguage) -> Unit,
+    onOpenAbout: () -> Unit,
     onSignOut: () -> Unit,
 ) {
     val listState = rememberLazyListState()
@@ -114,6 +118,12 @@ fun SettingsScreen(
                             summary = stringResource(R.string.settings_storage_summary),
                             insideMargin = BasicComponentDefaults.InsideMargin,
                             enabled = true,
+                        )
+                        ArrowPreference(
+                            title = stringResource(R.string.settings_about_title),
+                            summary = stringResource(R.string.settings_about_summary),
+                            insideMargin = BasicComponentDefaults.InsideMargin,
+                            onClick = onOpenAbout,
                         )
                         BasicComponent(
                             title = stringResource(R.string.settings_sign_out),

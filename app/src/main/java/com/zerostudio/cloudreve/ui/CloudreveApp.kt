@@ -134,7 +134,12 @@ fun CloudreveApp(
                                 },
                             )
                             CloudreveDestination.Share -> ShareRoute(padding)
-                            CloudreveDestination.Settings -> SettingsRoute(padding)
+                            CloudreveDestination.Settings -> SettingsRoute(
+                                padding = padding,
+                                onOpenAbout = {
+                                    activityContext.startActivity(AboutActivity.createIntent(activityContext))
+                                },
+                            )
                         }
                     }
                 }

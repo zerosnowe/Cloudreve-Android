@@ -7,6 +7,8 @@
     <string name="settings_security_summary">Biometric unlock, password changes and 2FA management are wired as settings surfaces for the next implementation pass.</string>
     <string name="settings_storage_title">Storage</string>
     <string name="settings_storage_summary">Offline files, WebDAV accounts and automatic photo backup use WorkManager-backed pipelines.</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_about_summary">Version, lyrics, image editor and open-source libraries.</string>
     <string name="settings_sign_out">Sign out</string>
     <string name="settings_sign_out_summary">Sign out of the current Cloudreve account.</string>
 </resources>
