@@ -1,0 +1,10 @@
+<resources>
+    <string name="auth_connect_title">Connect to Cloudreve</string>
+    <string name="auth_server_url_label">Server URL</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_two_factor_label">2FA code</string>
+    <string name="auth_sign_in_button">Sign in</string>
+    <string name="auth_error_required_fields">Server, email and password are required</string>
+    <string name="auth_error_sign_in_failed">Sign in failed</string>
+</resources>

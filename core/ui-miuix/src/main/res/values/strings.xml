@@ -1,0 +1,24 @@
+<resources>
+    <string name="destination_title_files">File</string>
+    <string name="destination_label_files">Files</string>
+    <string name="destination_title_preview">Album</string>
+    <string name="destination_label_preview">Album</string>
+    <string name="destination_title_share">Shares</string>
+    <string name="destination_label_share">Share</string>
+    <string name="destination_title_settings">Settings</string>
+    <string name="destination_label_settings">Settings</string>
+    <string name="destination_title_sign_in">Sign in</string>
+    <string name="file_type_folder">Folder</string>
+    <string name="file_type_audio">Audio file</string>
+    <string name="file_type_apk">APK file</string>
+    <string name="file_type_archive">Archive file</string>
+    <string name="file_size_kb">%1$d KB</string>
+    <string name="file_action_open_with">Open with</string>
+    <string name="file_action_download">Download</string>
+    <string name="file_action_share">Share</string>
+    <string name="file_action_rename">Rename</string>
+    <string name="file_action_copy">Copy</string>
+    <string name="file_rename_title">Rename</string>
+    <string name="file_rename_label">File name</string>
+    <string name="common_save">Save</string>
+</resources>

@@ -1,0 +1,44 @@
+# Gradle / Android build outputs
+.gradle/
+.kotlin/
+**/build/
+**/.gradle/
+**/.kotlin/
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+externalNativeBuild/
+
+# Android Studio / IntelliJ local state
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/gradle.xml
+.idea/misc.xml
+
+# Local SDK and machine-specific config
+local.properties
+/local.properties
+
+# Kotlin / Java / native diagnostics
+*.hprof
+hs_err_pid*.log
+replay_pid*.log
+
+# Local command output and temporary screenshots
+build-output.log
+test-output.log
+cloudreve_screen.png
+music-menu-*.png
+
+# Codex temporary working folders
+.codex_tmp_*/
+
+# OS files
+.DS_Store
+Thumbs.db

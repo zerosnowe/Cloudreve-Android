@@ -1,0 +1,10 @@
+<resources>
+    <string name="auth_connect_title">连接到 Cloudreve</string>
+    <string name="auth_server_url_label">服务器地址</string>
+    <string name="auth_email_label">邮箱</string>
+    <string name="auth_password_label">密码</string>
+    <string name="auth_two_factor_label">两步验证码</string>
+    <string name="auth_sign_in_button">登录</string>
+    <string name="auth_error_required_fields">请填写服务器地址、邮箱和密码</string>
+    <string name="auth_error_sign_in_failed">登录失败</string>
+</resources>

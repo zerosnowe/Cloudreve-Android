@@ -1,0 +1,6 @@
+<resources>
+    <string name="share_create_title">Create external link</string>
+    <string name="share_uri_label">Cloudreve URI</string>
+    <string name="share_create_button">Create link</string>
+    <string name="share_error_failed">Share failed</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="files_search_label">搜索文件</string>
+    <string name="files_search_cancel">取消</string>
+    <string name="files_search_count">共 %1$d 条结果</string>
+    <string name="files_pull_refresh_pull">下拉刷新</string>
+    <string name="files_pull_refresh_release">松开刷新</string>
+    <string name="files_pull_refresh_refreshing">正在刷新...</string>
+    <string name="files_pull_refresh_done">刷新成功</string>
+    <string name="files_delete_count">删除 %1$d 项</string>
+    <string name="files_clear_selection">清除</string>
+    <string name="files_empty_refresh">暂无已缓存文件，点按刷新。</string>
+    <string name="files_action_download">下载</string>
+    <string name="files_action_share">分享</string>
+    <string name="files_action_delete">删除</string>
+    <string name="files_action_more">更多</string>
+    <string name="files_error_refresh_failed">刷新失败</string>
+    <string name="files_error_delete_failed">删除失败</string>
+    <string name="files_error_download_failed">下载失败</string>
+    <string name="files_error_share_failed">分享失败</string>
+    <string name="files_error_rename_failed">重命名失败</string>
+    <string name="files_error_copy_failed">复制失败</string>
+    <string name="files_error_open_with_failed">打开失败</string>
+    <string name="files_error_upload_failed">上传失败</string>
+    <string name="files_error_create_failed">创建失败</string>
+</resources>

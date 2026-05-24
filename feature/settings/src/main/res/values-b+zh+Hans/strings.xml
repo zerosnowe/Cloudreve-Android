@@ -1,0 +1,12 @@
+<resources>
+    <string name="settings_language_title">语言</string>
+    <string name="settings_language_summary">应用默认使用简体中文，可在这里切换应用内语言。</string>
+    <string name="settings_language_simplified_chinese">简体中文</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_security_title">安全</string>
+    <string name="settings_security_summary">生物识别解锁、修改密码和两步验证管理已预留为下一轮实现的设置入口。</string>
+    <string name="settings_storage_title">存储</string>
+    <string name="settings_storage_summary">离线文件、WebDAV 账户和自动照片备份将通过 WorkManager 管线处理。</string>
+    <string name="settings_sign_out">退出登录</string>
+    <string name="settings_sign_out_summary">退出当前 Cloudreve 账号。</string>
+</resources>

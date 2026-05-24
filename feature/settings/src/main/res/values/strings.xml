@@ -1,0 +1,12 @@
+<resources>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_summary">The app defaults to Simplified Chinese. Change the in-app language here.</string>
+    <string name="settings_language_simplified_chinese">Simplified Chinese</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_security_title">Security</string>
+    <string name="settings_security_summary">Biometric unlock, password changes and 2FA management are wired as settings surfaces for the next implementation pass.</string>
+    <string name="settings_storage_title">Storage</string>
+    <string name="settings_storage_summary">Offline files, WebDAV accounts and automatic photo backup use WorkManager-backed pipelines.</string>
+    <string name="settings_sign_out">Sign out</string>
+    <string name="settings_sign_out_summary">Sign out of the current Cloudreve account.</string>
+</resources>
