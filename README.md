@@ -46,7 +46,7 @@
 | 三星OneUI             | Android15未测试/Android16+ | ✅基本支持 |
 | 小米/红米/POCO          | HyperOS 300.1+          | ✅基本支持 |
 | VIVO                | -                       | ❌不支持  |
-| OPPO/OnePlus/Realme | ColorOS 15+             | ✅完全支持 |
+| OPPO/OnePlus/Realme | ColorOS 16.0+             | ✅完全支持 |
 | 华为（双内核）             | -                       | ❌不支持  |
 
 ---
